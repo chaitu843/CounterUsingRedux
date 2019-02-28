@@ -1,0 +1,54 @@
+.container{
+    margin: 20px;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: red;
+    font-variant: small-caps;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 7em;
+}
+
+.value{
+    font-size: 6em;
+    font-weight: bolder;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.buttonContainer{
+    flex-basis: 50%;
+}
+
+button{
+    background-color: white;
+    padding: 5px;
+    font-size: 28px;
+    border-color: black;
+    margin-left: 3em;
+}
+.increment{
+    color: green;
+}
+
+.decrement{
+    color: red;
+}
+
+.reset{
+    background-color: red;
+    color: white;
+}
