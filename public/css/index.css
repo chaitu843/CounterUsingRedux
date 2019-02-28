@@ -20,17 +20,18 @@ h2{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 7em;
+    margin-bottom: 7em;
 }
 
 .value{
     font-size: 6em;
     font-weight: bolder;
-    flex-basis: 50%;
+    flex-basis: 40%;
     text-align: center;
 }
 
 .buttonContainer{
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 
 button{
@@ -51,4 +52,12 @@ button{
 .reset{
     background-color: red;
     color: white;
+}
+
+.options{
+    text-align: right;
+}
+.add{
+    color: maroon;
+    font-size: 16px;
 }
