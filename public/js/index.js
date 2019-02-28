@@ -41,3 +41,5 @@ $('.reset').click(() => {
 store.subscribe(() => {
     $('.value').html(store.getState())
 })
+
+// In MutlipleCounter Branch
