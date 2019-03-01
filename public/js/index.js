@@ -53,7 +53,7 @@ const counter = (state = currentState, action) => {
             ]
         case "DELETE_COUNTER":
             length = state.length;
-            if(length===1) return state;
+            if(length===min) return state;
             return state.filter((counter)=>counter.id!=action.id);
         default:
             return state;
